@@ -44,8 +44,8 @@ section p {
 
 ul {
     list-style: none;
+    padding-left: 1rem;
 }
-
 #contact {
     text-align: center;
 }
@@ -68,11 +68,11 @@ ul {
     font-size: 3rem;
     text-align: center;
 }
-
+/*
 .fa-solid,
 .fa-brands {
     color: #ffffff;
-}
+}*/
 
 .fa-robot {
     font-size: 10rem;
