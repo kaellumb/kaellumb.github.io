@@ -68,11 +68,39 @@ ul {
     font-size: 3rem;
     text-align: center;
 }
-/*
-.fa-solid,
-.fa-brands {
-    color: #ffffff;
-}*/
+
+section ul {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+section ul a {
+    min-width: 25%;
+    max-width: 50%;
+    margin: 0.5rem;
+    padding: 1rem;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+}
+
+section ul a:hover {
+    background-color: #222;
+}
+
+section li i {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+section li p {
+    margin-top: 0;
+}
+
+section li h3 {
+    margin-bottom: 0;
+}
 
 .fa-robot {
     font-size: 10rem;
@@ -80,7 +108,17 @@ ul {
 
 @media only screen and (max-width: 600px) {
     nav {
-        flex-direction: column;
+        flex-direction: column;      
+    }
+
+    section li p {
+        display: none;
+    }
+
+    section ul {
+        padding: 0;
+        margin: 0;
+        width: 100%;
     }
 
     nav ul {
