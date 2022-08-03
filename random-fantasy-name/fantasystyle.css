@@ -1,0 +1,42 @@
+html, body {
+    font-family: 'Bebas Neue', cursive;
+    height: 100%;
+    background-color: #CD585E;
+    color: #F5DDDE;
+}
+
+div {
+    margin-top: auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 3rem;
+    height: 100%;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+#btn {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0.75rem;
+    margin-top: 0rem;
+    background-color: #A4464B;
+    color: #F5DDDE;
+    border: none;
+    letter-spacing: 0.1rem;
+}
+
+#btn:hover {
+    background-color: #F5DDDE;
+    color: #A4464B;
+}
