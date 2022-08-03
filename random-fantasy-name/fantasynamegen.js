@@ -8,7 +8,7 @@ const firstNames = ['Alaric', 'Alba', 'Alban', 'Anabel', 'Aldo', 'Aquila', 'Ambr
 
 function generateFirstNames() {
     const firstName = generateRandomName(firstNames);
-    const middleName = generateRandomName(firstNames);
+    const middleName = generateRandomName(middleNames);
     document.getElementById("first").innerHTML = firstName;
     document.getElementById("middle").innerHTML = middleName;
 

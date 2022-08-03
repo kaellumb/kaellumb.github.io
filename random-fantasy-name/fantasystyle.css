@@ -41,3 +41,15 @@ h2 {
     background-color: #F5DDDE;
     color: #A4464B;
 }
+
+@media only screen and (max-width: 600px) {
+    #btn {
+        margin-top: auto;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    h2 {
+        margin: auto;
+    }
+}
