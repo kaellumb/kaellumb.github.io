@@ -6,8 +6,19 @@ body {
     margin-right: 20%;
 }
 
+.scroll {
+    display: flex;
+}
+
+.fa-arrow-left,
+.fa-arrow-right {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
 .fa-solid.fa-arrow-right {
-    display: none;
+    margin-left: auto;
+    text-align: end;
 }
 
 #home {
@@ -75,17 +86,30 @@ ul {
 
 section ul {
     display: flex;
-    justify-content: space-evenly;
     justify-items: center;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    justify-content: flex-start;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
+section ul::-webkit-scrollbar {
+    display: none;
+  }
 section ul a {
     width: 33%;
     margin: 0.5rem;
     padding: 1rem;
     border: 1px solid #ffffff;
     text-decoration: none;
+}
+
+section li,
+section ul a{
+    width: 15rem;
+    height: 15rem;
 }
 
 section ul a:hover {
@@ -139,11 +163,5 @@ section li h3 {
 
     nav ul {
         margin-right: auto;
-    }
-    .fa-solid.fa-arrow-right {
-        display: inline-block;
-        text-align: end;
-        width: 100%;
-        font-size: 1.5rem;
     }
 }

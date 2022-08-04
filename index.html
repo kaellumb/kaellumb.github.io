@@ -12,7 +12,6 @@
 </head>
 
 <body>
-    <script src="index.js"></script>
     <nav>
         <h1>Kaellum Bean</h1>
         <ul class="nav-menu">
@@ -30,7 +29,6 @@
                 <br>
                 Have a look at some of the projects below. If you would like to contact me, there are multiple links at
                 the bottom of the page that should help you do that.
-                <br>It has been <span id="time"></span> seconds since time began.
             </p>
         </div>
     </section>
@@ -40,7 +38,7 @@
             were utilised in the project. <br>
             (<i class="fa-brands fa-js"></i>JavaScript <i class="fa-brands fa-html5"></i>HTML <i class="fa-brands fa-css3-alt"></i>CSS)
         </p>
-        <ul>
+        <ul id='scroll-list'>
             <a href="./random-fantasy-name/fantasynames.html" target="blank">
             <li><h3>Fantasy Name Generator</h3>
                 <i class="fa-brands fa-js"></i>
@@ -65,8 +63,24 @@
                 <p>This is a test and where the description would go.</p>
             </li>
             </a>
+            <a href="">
+                <li><h3>Example Project 4</h3>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p>This is a test and where the description would go.</p>
+                </li>
+                </a>
+                <a href="">
+                    <li><h3>Example Project 5</h3>
+                        <i class="fa-brands fa-js"></i>
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <p>This is a test and where the description would go.</p>
+                    </li>
+                    </a>
         </ul>
-        <i class="fa-solid fa-arrow-right"></i>
+        <div class="scroll"><i class="fa-solid fa-arrow-left" id="scrollLeft"></i><i class="fa-solid fa-arrow-right" id="scrollRight"></i></div>
     </section>
     <footer id="contact">
         <h2>Contact Me</h2>
@@ -83,6 +97,7 @@
             </div>
         </div>
     </footer>
+    <script src="index.js"></script>
 </body>
 
 </html>
